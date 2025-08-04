@@ -161,21 +161,29 @@
 
 // QUESTION NO 6
 
-let celsiusTemp = prompt("Please enter your desired number for which the conversion from " + " °C "  +  "is required ." ) ;
+// let celsiusTemp = prompt("Please enter your desired number for which the conversion from " + " °C "  +  "is required ." ) ;
 
-Fehrenheitfromcelsiustemp = (celsiusTemp * 9/5) + 32 ;
+// Fehrenheitfromcelsiustemp = (celsiusTemp * 9/5) + 32 ;
 
-document.write(" <h3> " +  celsiusTemp + " &deg;C is " + Fehrenheitfromcelsiustemp + " &deg;F " + " . </h3>")
+// document.write(" <h3> " +  celsiusTemp + " &deg;C is " + Fehrenheitfromcelsiustemp + " &deg;F " + " . </h3>")
 
 
-let fehrenheit = prompt( " Please enter digit OF °F TO convert it into °C ") ;
-    fehrenheit = Number(fehrenheit);
+// let fehrenheit = prompt( " Please enter digit OF °F TO convert it into °C ") ;
+//     fehrenheit = Number(fehrenheit);
 
- let   celsiusfromfehrenheit = (fehrenheit - 32) * 5/9; 
-    document.write("<h3>" + fehrenheit + "&deg;F is " + celsiusfromfehrenheit.toFixed(3) + "&deg;C" + ". </h3>")
+//  let   celsiusfromfehrenheit = (fehrenheit - 32) * 5/9; 
+//     document.write("<h3>" + fehrenheit + "&deg;F is " + celsiusfromfehrenheit.toFixed(3) + "&deg;C" + ". </h3>")
 
 //---------------------------------------------------------------------------------------------------------------------
 
+// QUESTION NO 8
+
+// let totalMarks=1100 ;
+// let marksObtain=878 ;
+// percentage = ((marksObtain / totalMarks) * 100 );
+// document.write("<h3>" + "The percentage of Giving marks is " + percentage.toFixed(2) + ".</h3>") 
+
+// ------------------------------------------------------------------------------------------------------------------------
 
 
 
