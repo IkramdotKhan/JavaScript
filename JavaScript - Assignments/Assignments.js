@@ -186,6 +186,112 @@
 // ------------------------------------------------------------------------------------------------------------------------
 
 
+// ----------------------------------- CHAPTER 6-9 --------------------------------------------------
+
+// QUESTION NO 1
+
+
+// a=10
+
+// document.write("<h2> RESULT : </h2>")
+// document.write("<h2> The Value of a is " + a + "</h2>")
+// document.write(" --------------------------------------- ")
+
+// document.write(" <h2> The value of  ++ a is " + ++a +  " </h2> ")  //11
+// document.write(" <h2> Now The value of a is  " + a + " </h2> ")     //11
+
+// document.write(" <h2> The value of a ++ is " + a++ +  " </h2> ")    //11
+// document.write(" <h2> Now The value of a is  " + a + " </h2> ")     //12
+
+// document.write(" <h2> The value of  --a is " + --a +  " </h2> ")    //11
+// document.write(" <h2> Now The value of a is  " + a + " </h2> ")     //11
+
+// document.write(" <h2> The value of  a-- is " + a-- +  " </h2> ")    //11
+// document.write(" <h2> Now The value of a is  " + a + " </h2> ")     //10
+
+
+// ------------------------------------------------------------------------------------------------------------------------
+
+// QUESTION NO 2
+
+// let a = 2;
+//     b = 1;
+
+//     document.write("a = " + a + "<br>")
+//     document.write("b = " + b + "<br>")
+
+//     document.write(" --a - --b + ++b + b-- =  ? " + "<br>" )
+
+//         var result = --a - --b + ++b + b-- ;
+
+//     document.write("result = " + result )
+
+
+// ------------------------------------------------------------------------------------------------------------------------
+
+
+// QUESTION NO 2
+
+//  let User = prompt("Please Enter your Name : ") ;
+// alert(" hey " + User + " How is your JS Practice going on ? " )
+
+// ------------------------------------------------------------------------------------------------------------------------
+
+// QUESTION NO 5
+
+// let tableNo = prompt(" Please enter any digit to view the Table ");
+
+//     let TableHTML= "<table>";
+
+//     for (let i = 1 ; i <= 10 ; i++){
+//         document.write( tableNo  +  " x " + i + " = " + ( tableNo * i ) + "<br>")
+//     }
+
+
+//------------------------------------------------------------------------------------------------------------------------
+
+// QUESTION NO 6
+
+// Taking subjects name from user 
+// var subject1=prompt("Please enter First subject name so that our team clarify it ");
+// var subject2=prompt("Please enter Second subject name so that our team clarify it ");
+// var  subject3=prompt("Please enter Third subject name so that our team clarift it");
+
+// // taking marks obatain from user 
+//  const marks1=Number(prompt( "Please enter marks obtain at " + subject1 ));
+//  const marks2=Number(prompt( "Please enter marks obtain at " + subject2 ));
+//  const marks3=Number(prompt( "Please enter marks obtain at " + subject3 ));
+
+//  //total obtain
+//  const totalObtain = marks1 + marks2 + marks3;
+
+//  console.log(totalObtain)
+
+//  console.log(typeof marks1)
+//  console.log(typeof marks2)
+//  console.log(typeof marks3)
+
+
+//  //total marks 
+// totalMarks = 100 ; 
+// totalMarksofall = totalMarks*3;
+
+
+// document.write( "<h4>" + "Subject  "   + " Total Marks "   + " Obtain Marks  " +   "Percentage" +  "</h3>" + "<br>");
+// document.write(  subject1  + marks1 + "%" + "</h3>" + "<br>");
+// document.write( subject2   +   totalMarks  + marks2  +  marks2 + "%" + "</h3>" + "<br>");
+// document.write(  subject3   +     totalMarks   + marks3 + marks3 + "%" + "</h3>" +  "<br>");
+// document.write(      totalMarks*3     + (marks1+marks2+marks3) +  (totalObtain / totalMarksofall * 100) + "%" + "</h3>" +  "<br>");
+// style and spacing remaining 
+
+//-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
