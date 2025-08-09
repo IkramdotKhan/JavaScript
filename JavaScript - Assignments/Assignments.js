@@ -19,7 +19,7 @@
 
 // // 5.done through web browser console
 
-// // 6. done thorugh existing facebook clone website 
+// // 6. done thorugh existing facebook clone website
 
 
 
@@ -61,14 +61,14 @@
 
 // QUESTION NO 1
 
-//  var myFirstName , myLastName , myAge        DECLARING THREE VARIABLE IN A SINGLE STATEMENT 
+//  var myFirstName , myLastName , myAge        DECLARING THREE VARIABLE IN A SINGLE STATEMENT
 // console.log(myFirstName,myLastName,myAge)
 
 // QUESTION NO 2
 
-// var $dollar , _myName , myName , myName60 , my60nAME         // LEGAL NAMES JS 
+// var $dollar , _myName , myName , myName60 , my60nAME         // LEGAL NAMES JS
 // console.log($dollar,_myName,my60nAME,myName60,myName)
-// var 1name , *pet25 , .name , 88name , @name                 // ILLEGAL NAMES IN JS 
+// var 1name , *pet25 , .name , 88name , @name                 // ILLEGAL NAMES IN JS
 
 // QUESTION NO 3
 
@@ -141,7 +141,7 @@
 // let ticketprice = 600 ;
 // noOfTickets = 5 ;
 
-// costOfFiveTickets = ticketprice * noOfTickets ; 
+// costOfFiveTickets = ticketprice * noOfTickets ;
 
 // document.write("<h3>Total cost to buy " + noOfTickets + " tickets to a movie is " + costOfFiveTickets + ".</h3>")
 
@@ -171,7 +171,7 @@
 // let fehrenheit = prompt( " Please enter digit OF °F TO convert it into °C ") ;
 //     fehrenheit = Number(fehrenheit);
 
-//  let   celsiusfromfehrenheit = (fehrenheit - 32) * 5/9; 
+//  let   celsiusfromfehrenheit = (fehrenheit - 32) * 5/9;
 //     document.write("<h3>" + fehrenheit + "&deg;F is " + celsiusfromfehrenheit.toFixed(3) + "&deg;C" + ". </h3>")
 
 //---------------------------------------------------------------------------------------------------------------------
@@ -181,7 +181,7 @@
 // let totalMarks=1100 ;
 // let marksObtain=878 ;
 // percentage = ((marksObtain / totalMarks) * 100 );
-// document.write("<h3>" + "The percentage of Giving marks is " + percentage.toFixed(2) + ".</h3>") 
+// document.write("<h3>" + "The percentage of Giving marks is " + percentage.toFixed(2) + ".</h3>")
 
 // ------------------------------------------------------------------------------------------------------------------------
 
@@ -252,12 +252,12 @@
 
 // QUESTION NO 6
 
-// Taking subjects name from user 
+// Taking subjects name from user
 // var subject1=prompt("Please enter First subject name so that our team clarify it ");
 // var subject2=prompt("Please enter Second subject name so that our team clarify it ");
 // var  subject3=prompt("Please enter Third subject name so that our team clarift it");
 
-// // taking marks obatain from user 
+// // taking marks obatain from user
 //  const marks1=Number(prompt( "Please enter marks obtain at " + subject1 ));
 //  const marks2=Number(prompt( "Please enter marks obtain at " + subject2 ));
 //  const marks3=Number(prompt( "Please enter marks obtain at " + subject3 ));
@@ -272,8 +272,8 @@
 //  console.log(typeof marks3)
 
 
-//  //total marks 
-// totalMarks = 100 ; 
+//  //total marks
+// totalMarks = 100 ;
 // totalMarksofall = totalMarks*3;
 
 
@@ -282,21 +282,108 @@
 // document.write( subject2   +   totalMarks  + marks2  +  marks2 + "%" + "</h3>" + "<br>");
 // document.write(  subject3   +     totalMarks   + marks3 + marks3 + "%" + "</h3>" +  "<br>");
 // document.write(      totalMarks*3     + (marks1+marks2+marks3) +  (totalObtain / totalMarksofall * 100) + "%" + "</h3>" +  "<br>");
-// style and spacing remaining 
+// style and spacing remaining
 
 //-----------------------------------------------------------------------------------------------------------------------------------
 
+// ----------------------------------- CHAPTER 6-9 --------------------------------------------------
+
+
+// QUESTION NO 1
+// Write a program to take city from user as input . if user enters Karachi , welcome the user like this , welcome to the city of lights.
+
+// taking input from user
+// let city = prompt(" Please enter your City name ");
+// if (city.toLowerCase() == "karachi") {
+//     alert("Welcome to the city of lights ")
+// }
 
 
 
+// QUESTION NO 2
+// Write a program to take gender from user as input . if the "user" is male greet them with Good morning sir .
+//  if the user female greet her with Goodmorning Maa'm .
 
 
+// let gender = prompt(" verify your Gender ? Male / Female ")
+// if (gender.toLowerCase() == "male") {
+//     alert(" Good Morning Sir ")
+// } if (gender.toLowerCase() == "female") {
+//     alert("Good Morning Maa'm")
+// }
 
 
+// QUESTION NO 3
+// Write a program to take input color of road traffic signal from  the user and show the message .
+
+// let SignalColor = prompt("Please Enter ther Trafic Signal Color for details");
+
+// SignalColor = SignalColor.toLowerCase();
+
+// if (SignalColor == "red") {
+//     alert("Must Stop")
+// }
+// else if (SignalColor == "yellow") {
+//     alert("Ready to move")
+// }
+// else if (SignalColor == "green") {
+//     alert("Move Now")
+// }
+// else {
+//     alert("Invalid Color entered")
+// }
 
 
+// QUESTION NO 4
+// Write a Program to take input remaining fuel in car (in litre) from user.if the current fuel is less than 0.25 litres, show the message " Please refill the fuel in your car."
+
+// let fuel = prompt("Please enter the amount of Fuel remaining in your car (In Litres) e.g 0.5 , 1 , 2 , 5 ")
+// if (fuel < 0.25){
+//     alert("Please Refill the fuel in your car")
+// }
+// else {
+//     alert("Enough Fuel Available in your car")
+// }
 
 
+// QUESTION NO 5
+
+// Taking marks input for three subjects
+let subject1 = parseFloat(prompt("Enter marks obtained in Subject 1:"));
+let subject2 = parseFloat(prompt("Enter marks obtained in Subject 2:"));
+let subject3 = parseFloat(prompt("Enter marks obtained in Subject 3:"));
+
+let totalMarks = 300; // Total marks for three subjects
+let marksObtained = subject1 + subject2 + subject3;
+
+// Calculate percentage
+let percentage = (marksObtained / totalMarks) * 100;
+
+// Variables for grade and remarks
+let grade, remarks;
+
+// Determine grade and remarks
+if (percentage >= 80) {
+    grade = "A-one";
+    remarks = "Excellent";
+} else if (percentage >= 70) {
+    grade = "A";
+    remarks = "Good";
+} else if (percentage >= 60) {
+    grade = "B";
+    remarks = "You need to improve";
+} else {
+    grade = "Fail";
+    remarks = "Sorry";
+}
+
+// Show the marks sheet
+document.write("<h1>Marks Sheet</h1>");
+document.write("Total marks: " + totalMarks + "<br>");
+document.write("Marks obtained: " + marksObtained + "<br>");
+document.write("Percentage: " + percentage.toFixed(2) + "%<br>");
+document.write("Grade: " + grade + "<br>");
+document.write("Remarks: " + remarks);
 
 
 
