@@ -349,41 +349,171 @@
 // QUESTION NO 5
 
 // Taking marks input for three subjects
-let subject1 = parseFloat(prompt("Enter marks obtained in Subject 1:"));
-let subject2 = parseFloat(prompt("Enter marks obtained in Subject 2:"));
-let subject3 = parseFloat(prompt("Enter marks obtained in Subject 3:"));
+// let subject1 = parseFloat(prompt("Enter marks obtained in Subject 1:"));
+// let subject2 = parseFloat(prompt("Enter marks obtained in Subject 2:"));
+// let subject3 = parseFloat(prompt("Enter marks obtained in Subject 3:"));
 
-let totalMarks = 300; // Total marks for three subjects
-let marksObtained = subject1 + subject2 + subject3;
+// let totalMarks = 300; // Total marks for three subjects
+// let marksObtained = subject1 + subject2 + subject3;
 
-// Calculate percentage
-let percentage = (marksObtained / totalMarks) * 100;
+// // Calculate percentage
+// let percentage = (marksObtained / totalMarks) * 100;
 
-// Variables for grade and remarks
-let grade, remarks;
+// // Variables for grade and remarks
+// let grade, remarks;
 
-// Determine grade and remarks
-if (percentage >= 80) {
-    grade = "A-one";
-    remarks = "Excellent";
-} else if (percentage >= 70) {
-    grade = "A";
-    remarks = "Good";
-} else if (percentage >= 60) {
-    grade = "B";
-    remarks = "You need to improve";
-} else {
-    grade = "Fail";
-    remarks = "Sorry";
-}
+// // Determine grade and remarks
+// if (percentage >= 80) {
+//     grade = "A-one";
+//     remarks = "Excellent";
+// } else if (percentage >= 70) {
+//     grade = "A";
+//     remarks = "Good";
+// } else if (percentage >= 60) {
+//     grade = "B";
+//     remarks = "You need to improve";
+// } else {
+//     grade = "Fail";
+//     remarks = "Sorry";
+// }
 
-// Show the marks sheet
-document.write("<h1>Marks Sheet</h1>");
-document.write("Total marks: " + totalMarks + "<br>");
-document.write("Marks obtained: " + marksObtained + "<br>");
-document.write("Percentage: " + percentage.toFixed(2) + "%<br>");
-document.write("Grade: " + grade + "<br>");
-document.write("Remarks: " + remarks);
+// // Show the marks sheet
+// document.write("<h1>Marks Sheet</h1>");
+// document.write("Total marks: " + totalMarks + "<br>");
+// document.write("Marks obtained: " + marksObtained + "<br>");
+// document.write("Percentage: " + percentage.toFixed(2) + "%<br>");
+// document.write("Grade: " + grade + "<br>");
+// document.write("Remarks: " + remarks);
+
+
+// QUESTION NO 7
+// Store a secret number . ( ranging from one to ten ) in a variable . prompt user to guess the secret number . 
+// If user guesses the secret number . "Bingo ! Correct answer ". 
+// if the guess number +1 is the secret number , show "close enough ti the correct answer" .
+
+// let store a secret number
+// var SecretNo = 7;
+// var attempt = 0;
+// var guessNo;
+
+// while (true) {
+//   guessNo = parseFloat(prompt(" Hellow Guess a number between 1 - 09 \n (Attempts : " + (attempt + 1) + ")"));
+//   attempt++
+//   if (guessNo === SecretNo) {
+//     alert("🎯 Correct answer ! " + "  " + "[ Attempts: " + attempt + "]");
+//     break; //end game
+//   }
+
+//   else if (guessNo === 1) {
+//     alert("low guess hai")
+//   }
+//   else if (guessNo === 2) {
+//     alert("thoda sa or try karo")
+//   }
+//   else if (guessNo === 3) {
+//     alert("Thoda sa better guess")
+//   }
+//   else if (guessNo === 4) {
+//     alert("qareeb ho rahe ho")
+//   }
+//   else if (guessNo === 5) {
+//     alert("takreeban phnch gae hi answer pe but not exactly ")
+//   }
+//   else if (guessNo === 6) {
+//     alert("low guess hai")
+//   }
+//   else if (guessNo === 8) {
+//     alert("aas pas ho thorha sochooo")
+//   }
+//   else if (guessNo === 9) {
+//     alert(" Bohat aagey nikal gae ho ")
+//   }
+//   else {
+//     alert(" Plaese select between 1-09 ")
+//   }
+// }
+
+
+// QUESTION NO 8
+// Write a program that takes temperture as input and shows a message based on the following criteria . 
+// a. T > 40 then  " It is too  hot outside . "
+// a. T > 30 then  " the weather today is normal . "
+// a. T > 20 then  " Today's weather is cool . "
+// a. T > 10 then  " OMG , Today weather is soo cool . "
+
+// function startprogram() {
+//   while (true) {
+//     let Temperature = parseFloat(prompt(" Please enter a temperature value to let the AI gives you details "))
+//     if (Temperature > 10) {
+//       alert("OMG , Today weather is soo cool .")
+//     }
+//     else if (Temperature > 20) {
+//       alert(" Today's weather is cool .")
+//     }
+//     else if (Temperature > 30) {
+//       alert(" The weather today is normal .")
+//     }
+//     else if (Temperature > 40) {
+//       alert(" It is too  hot outside .")
+//     }
+//     else {
+//       alert(" Its Freezing Cold outside .")
+//     }
+//       // asking from user if they want to use the program again or exit 
+//       if (!confirm("Do you want to check another temperature ?")) { 
+//         alert("Thanks for using the weather checker ! 👋 ")
+//         break; // exit the program 
+//       }
+
+//   }
+
+// }
+// startprogram();
+
+
+// // Take first number
+// var num1 = parseFloat(prompt("Enter the first number:"));
+
+// // Take operator (+, -, *, /, %)
+// var operator = prompt("Enter an operator (+, -, *, /, %):");
+
+// // Take second number
+// var num2 = parseFloat(prompt("Enter the second number:"));
+
+// // Calculate based on operator
+// if (operator === "+") {
+//     alert("Result: " + (num1 + num2));
+// }
+// else if (operator === "-") {
+//     alert("Result: " + (num1 - num2));
+// }
+// else if (operator === "*") {
+//     alert("Result: " + (num1 * num2));
+// }
+// else if (operator === "/") {
+//     if (num2 !== 0) {
+//         alert("Result: " + (num1 / num2));
+//     } else {
+//         alert("Error: Cannot divide by zero!");
+//     }
+// }
+// else if (operator === "%") {
+//     if (num2 !== 0) {
+//         alert("Result: " + (num1 % num2));
+//     } else {
+//         alert("Error: Cannot find remainder with zero!");
+//     }
+// }
+// else {
+//     alert("Invalid operator entered!");
+// }
+
+
+
+
+
+
+
 
 
 
