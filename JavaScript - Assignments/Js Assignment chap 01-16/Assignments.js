@@ -1,0 +1,521 @@
+// //  1. SCRIPT TO GREET A WEBSITE VISITOR WITH ALERT BOX
+
+// window.alert("Welcome to our website! We're glad you're here.")
+
+
+// // 2.
+
+// window.alert("Error! Please enter a valid password.")
+
+
+// // 3.
+
+// window.alert("Welcome to JS land...\nHappy Coding!")
+
+// // 4.
+
+// window.alert("Welcome to JS land...")
+// window.alert("Happy Coding")
+
+// // 5.done through web browser console
+
+// // 6. done thorugh existing facebook clone website
+
+
+
+// // ----------------CHAPTER 2-----------------
+
+
+
+// var username =()
+
+// var myName=("Ikram Khan")
+
+// var message =("Hello World")
+
+// window.alert(message)
+
+// var studentBioDataFormName = ("Ikram Khan")
+// var studentBioDataFormAge = ("24 years old")
+// var studentBioDataFormRole = ("Certified Mobile Application Development")
+// window.alert(studentBioDataFormName)
+// window.alert(studentBioDataFormAge)
+// window.alert(studentBioDataFormRole)
+
+// var pizza = ("pizza\npizz\npiz\npi\np")
+// window.alert(pizza)
+
+
+// var email = ("Ikramdotkhan@gmail.com")
+// window.alert("My Email address is " + email)
+
+// var book = "A smarter way to learn JavaScript"
+// window.alert("I am trying to learn from the book " + book)
+
+// var age = (24)
+// window.alert("I am  "  + age + " Years Old")
+
+
+
+// ----------------------------------- CHAPTER 4 -------------------------------------
+
+// QUESTION NO 1
+
+//  var myFirstName , myLastName , myAge        DECLARING THREE VARIABLE IN A SINGLE STATEMENT
+// console.log(myFirstName,myLastName,myAge)
+
+// QUESTION NO 2
+
+// var $dollar , _myName , myName , myName60 , my60nAME         // LEGAL NAMES JS
+// console.log($dollar,_myName,my60nAME,myName60,myName)
+// var 1name , *pet25 , .name , 88name , @name                 // ILLEGAL NAMES IN JS
+
+// QUESTION NO 3
+
+// check Assignment.HTML for  Question No 3
+
+
+// ----------------------------------- CHAPTER 5 -------------------------------------
+
+
+// QUESTION NO 1
+
+
+// let value1 = 5;
+// let value2 = 5;
+// let totalsum = value1 + value2;
+
+// document.write("<h3>The Sum of " + value1 + " and " + value2 + " is " + totalsum + ".</h3>");
+
+// QUESTION NO 2
+
+// let value1 = 9 ;
+// let value2 = 3 ;
+// let subtractionOfvalue1andvalue2 = value1 - value2 ;
+// document.write(" <h3> The Subtraction of " + value1 +  " and " + value2 + " is " + subtractionOfvalue1andvalue2 + ".</h3>");
+
+// let value1 = 9 ;
+// let value2 = 3 ;
+// let multiplicationOfvalue1andvalue2 = value1 * value2 ;
+// document.write(" <h3> The Multiplication of " + value1 +  " and " + value2 + " is " + multiplicationOfvalue1andvalue2 + ".</h3>");
+
+// let value1 = 9 ;
+// let value2 = 3 ;
+// let divisionOfvalue1andvalue2 = value1 / value2 ;
+// document.write(" <h3> The Division of " + value1 +  " and " + value2 + " is " + divisionOfvalue1andvalue2 + ".</h3>");
+
+// let value1 = 9 ;
+// let value2 = 3 ;
+// let modulusOfvalue1andvalue2 = value1 % value2 ;
+// document.write(" <h3> The modulus of " + value1 +  " and " + value2 + " is " + modulusOfvalue1andvalue2 + ".</h3>");
+
+// QUESTION NO 3 (a)
+
+// var value = 52 ;
+
+// QUESTION NO 3 (b)
+
+// document.write("<h3> Value after variable decleration is " + value + ".</h3>")
+
+// QUESTION NO 3 (c , d ,e, f, g , h , i ,  j , k , l)
+
+// let  value = 5 + 7 ;
+//      value++  ;
+
+// document.write("<h3> Value after Incriment is  " + value++  + ".</h3>")
+// let  value = 5 ;
+//      value--  ;
+
+// document.write("<h3> Value after decriment is  " + value--  + ".</h3>")
+
+// let  value1 = 12 ;
+// let  value2 = 3  ;
+
+//     remainderOfValue1andValue2= (value1%value2)
+
+
+// document.write("<h3>The Reminder is : " + remainderOfValue1andValue2  + " .</h3>")
+
+// QUESTION NO 4
+
+// let ticketprice = 600 ;
+// noOfTickets = 5 ;
+
+// costOfFiveTickets = ticketprice * noOfTickets ;
+
+// document.write("<h3>Total cost to buy " + noOfTickets + " tickets to a movie is " + costOfFiveTickets + ".</h3>")
+
+//---------------------------------------------------------------------------------------------------------------
+
+// QUESTION NO 5  Table Multiplication using for Loop
+
+
+
+// let tableNo = prompt("Please Enter any digit for which the table is required") ;
+//     document.write("<h3> Multiplication Table of " + tableNo + " is " + ".</h3>")
+//     for ( let  i = 1 ; i <= 10 ; i ++ ){
+//     document.write ( tableNo + " x " +  i + " = " + ( tableNo * i ) + " <br> ")
+//     }
+
+//----------------------------------------------------------------------------------------------------------------
+
+// QUESTION NO 6
+
+// let celsiusTemp = prompt("Please enter your desired number for which the conversion from " + " °C "  +  "is required ." ) ;
+
+// Fehrenheitfromcelsiustemp = (celsiusTemp * 9/5) + 32 ;
+
+// document.write(" <h3> " +  celsiusTemp + " &deg;C is " + Fehrenheitfromcelsiustemp + " &deg;F " + " . </h3>")
+
+
+// let fehrenheit = prompt( " Please enter digit OF °F TO convert it into °C ") ;
+//     fehrenheit = Number(fehrenheit);
+
+//  let   celsiusfromfehrenheit = (fehrenheit - 32) * 5/9;
+//     document.write("<h3>" + fehrenheit + "&deg;F is " + celsiusfromfehrenheit.toFixed(3) + "&deg;C" + ". </h3>")
+
+//---------------------------------------------------------------------------------------------------------------------
+
+// QUESTION NO 8
+
+// let totalMarks=1100 ;
+// let marksObtain=878 ;
+// percentage = ((marksObtain / totalMarks) * 100 );
+// document.write("<h3>" + "The percentage of Giving marks is " + percentage.toFixed(2) + ".</h3>")
+
+// ------------------------------------------------------------------------------------------------------------------------
+
+
+// ----------------------------------- CHAPTER 6-9 --------------------------------------------------
+
+// QUESTION NO 1
+
+
+// a=10
+
+// document.write("<h2> RESULT : </h2>")
+// document.write("<h2> The Value of a is " + a + "</h2>")
+// document.write(" --------------------------------------- ")
+
+// document.write(" <h2> The value of  ++ a is " + ++a +  " </h2> ")  //11
+// document.write(" <h2> Now The value of a is  " + a + " </h2> ")     //11
+
+// document.write(" <h2> The value of a ++ is " + a++ +  " </h2> ")    //11
+// document.write(" <h2> Now The value of a is  " + a + " </h2> ")     //12
+
+// document.write(" <h2> The value of  --a is " + --a +  " </h2> ")    //11
+// document.write(" <h2> Now The value of a is  " + a + " </h2> ")     //11
+
+// document.write(" <h2> The value of  a-- is " + a-- +  " </h2> ")    //11
+// document.write(" <h2> Now The value of a is  " + a + " </h2> ")     //10
+
+
+// ------------------------------------------------------------------------------------------------------------------------
+
+// QUESTION NO 2
+
+// let a = 2;
+//     b = 1;
+
+//     document.write("a = " + a + "<br>")
+//     document.write("b = " + b + "<br>")
+
+//     document.write(" --a - --b + ++b + b-- =  ? " + "<br>" )
+
+//         var result = --a - --b + ++b + b-- ;
+
+//     document.write("result = " + result )
+
+
+// ------------------------------------------------------------------------------------------------------------------------
+
+
+// QUESTION NO 2
+
+//  let User = prompt("Please Enter your Name : ") ;
+// alert(" hey " + User + " How is your JS Practice going on ? " )
+
+// ------------------------------------------------------------------------------------------------------------------------
+
+// QUESTION NO 5
+
+// let tableNo = prompt(" Please enter any digit to view the Table ");
+
+//     let TableHTML= "<table>";
+
+//     for (let i = 1 ; i <= 10 ; i++){
+//         document.write( tableNo  +  " x " + i + " = " + ( tableNo * i ) + "<br>")
+//     }
+
+
+//------------------------------------------------------------------------------------------------------------------------
+
+// QUESTION NO 6
+
+// Taking subjects name from user
+// var subject1=prompt("Please enter First subject name so that our team clarify it ");
+// var subject2=prompt("Please enter Second subject name so that our team clarify it ");
+// var  subject3=prompt("Please enter Third subject name so that our team clarift it");
+
+// // taking marks obatain from user
+//  const marks1=Number(prompt( "Please enter marks obtain at " + subject1 ));
+//  const marks2=Number(prompt( "Please enter marks obtain at " + subject2 ));
+//  const marks3=Number(prompt( "Please enter marks obtain at " + subject3 ));
+
+//  //total obtain
+//  const totalObtain = marks1 + marks2 + marks3;
+
+//  console.log(totalObtain)
+
+//  console.log(typeof marks1)
+//  console.log(typeof marks2)
+//  console.log(typeof marks3)
+
+
+//  //total marks
+// totalMarks = 100 ;
+// totalMarksofall = totalMarks*3;
+
+
+// document.write( "<h4>" + "Subject  "   + " Total Marks "   + " Obtain Marks  " +   "Percentage" +  "</h3>" + "<br>");
+// document.write(  subject1  + marks1 + "%" + "</h3>" + "<br>");
+// document.write( subject2   +   totalMarks  + marks2  +  marks2 + "%" + "</h3>" + "<br>");
+// document.write(  subject3   +     totalMarks   + marks3 + marks3 + "%" + "</h3>" +  "<br>");
+// document.write(      totalMarks*3     + (marks1+marks2+marks3) +  (totalObtain / totalMarksofall * 100) + "%" + "</h3>" +  "<br>");
+// style and spacing remaining
+
+//-----------------------------------------------------------------------------------------------------------------------------------
+
+// ----------------------------------- CHAPTER 6-9 --------------------------------------------------
+
+
+// QUESTION NO 1
+// Write a program to take city from user as input . if user enters Karachi , welcome the user like this , welcome to the city of lights.
+
+// taking input from user
+// let city = prompt(" Please enter your City name ");
+// if (city.toLowerCase() == "karachi") {
+//     alert("Welcome to the city of lights ")
+// }
+
+
+
+// QUESTION NO 2
+// Write a program to take gender from user as input . if the "user" is male greet them with Good morning sir .
+//  if the user female greet her with Goodmorning Maa'm .
+
+
+// let gender = prompt(" verify your Gender ? Male / Female ")
+// if (gender.toLowerCase() == "male") {
+//     alert(" Good Morning Sir ")
+// } if (gender.toLowerCase() == "female") {
+//     alert("Good Morning Maa'm")
+// }
+
+
+// QUESTION NO 3
+// Write a program to take input color of road traffic signal from  the user and show the message .
+
+// let SignalColor = prompt("Please Enter ther Trafic Signal Color for details");
+
+// SignalColor = SignalColor.toLowerCase();
+
+// if (SignalColor == "red") {
+//     alert("Must Stop")
+// }
+// else if (SignalColor == "yellow") {
+//     alert("Ready to move")
+// }
+// else if (SignalColor == "green") {
+//     alert("Move Now")
+// }
+// else {
+//     alert("Invalid Color entered")
+// }
+
+
+// QUESTION NO 4
+// Write a Program to take input remaining fuel in car (in litre) from user.if the current fuel is less than 0.25 litres, show the message " Please refill the fuel in your car."
+
+// let fuel = prompt("Please enter the amount of Fuel remaining in your car (In Litres) e.g 0.5 , 1 , 2 , 5 ")
+// if (fuel < 0.25){
+//     alert("Please Refill the fuel in your car")
+// }
+// else {
+//     alert("Enough Fuel Available in your car")
+// }
+
+
+// QUESTION NO 5
+
+// Taking marks input for three subjects
+// let subject1 = parseFloat(prompt("Enter marks obtained in Subject 1:"));
+// let subject2 = parseFloat(prompt("Enter marks obtained in Subject 2:"));
+// let subject3 = parseFloat(prompt("Enter marks obtained in Subject 3:"));
+
+// let totalMarks = 300; // Total marks for three subjects
+// let marksObtained = subject1 + subject2 + subject3;
+
+// // Calculate percentage
+// let percentage = (marksObtained / totalMarks) * 100;
+
+// // Variables for grade and remarks
+// let grade, remarks;
+
+// // Determine grade and remarks
+// if (percentage >= 80) {
+//     grade = "A-one";
+//     remarks = "Excellent";
+// } else if (percentage >= 70) {
+//     grade = "A";
+//     remarks = "Good";
+// } else if (percentage >= 60) {
+//     grade = "B";
+//     remarks = "You need to improve";
+// } else {
+//     grade = "Fail";
+//     remarks = "Sorry";
+// }
+
+// // Show the marks sheet
+// document.write("<h1>Marks Sheet</h1>");
+// document.write("Total marks: " + totalMarks + "<br>");
+// document.write("Marks obtained: " + marksObtained + "<br>");
+// document.write("Percentage: " + percentage.toFixed(2) + "%<br>");
+// document.write("Grade: " + grade + "<br>");
+// document.write("Remarks: " + remarks);
+
+
+// QUESTION NO 7
+// Store a secret number . ( ranging from one to ten ) in a variable . prompt user to guess the secret number . 
+// If user guesses the secret number . "Bingo ! Correct answer ". 
+// if the guess number +1 is the secret number , show "close enough ti the correct answer" .
+
+// let store a secret number
+// var SecretNo = 7;
+// var attempt = 0;
+// var guessNo;
+
+// while (true) {
+//   guessNo = parseFloat(prompt(" Hellow Guess a number between 1 - 09 \n (Attempts : " + (attempt + 1) + ")"));
+//   attempt++
+//   if (guessNo === SecretNo) {
+//     alert("🎯 Correct answer ! " + "  " + "[ Attempts: " + attempt + "]");
+//     break; //end game
+//   }
+
+//   else if (guessNo === 1) {
+//     alert("low guess hai")
+//   }
+//   else if (guessNo === 2) {
+//     alert("thoda sa or try karo")
+//   }
+//   else if (guessNo === 3) {
+//     alert("Thoda sa better guess")
+//   }
+//   else if (guessNo === 4) {
+//     alert("qareeb ho rahe ho")
+//   }
+//   else if (guessNo === 5) {
+//     alert("takreeban phnch gae hi answer pe but not exactly ")
+//   }
+//   else if (guessNo === 6) {
+//     alert("low guess hai")
+//   }
+//   else if (guessNo === 8) {
+//     alert("aas pas ho thorha sochooo")
+//   }
+//   else if (guessNo === 9) {
+//     alert(" Bohat aagey nikal gae ho ")
+//   }
+//   else {
+//     alert(" Plaese select between 1-09 ")
+//   }
+// }
+
+
+// QUESTION NO 8
+// Write a program that takes temperture as input and shows a message based on the following criteria . 
+// a. T > 40 then  " It is too  hot outside . "
+// a. T > 30 then  " the weather today is normal . "
+// a. T > 20 then  " Today's weather is cool . "
+// a. T > 10 then  " OMG , Today weather is soo cool . "
+
+// function startprogram() {
+//   while (true) {
+//     let Temperature = parseFloat(prompt(" Please enter a temperature value to let the AI gives you details "))
+//     if (Temperature > 10) {
+//       alert("OMG , Today weather is soo cool .")
+//     }
+//     else if (Temperature > 20) {
+//       alert(" Today's weather is cool .")
+//     }
+//     else if (Temperature > 30) {
+//       alert(" The weather today is normal .")
+//     }
+//     else if (Temperature > 40) {
+//       alert(" It is too  hot outside .")
+//     }
+//     else {
+//       alert(" Its Freezing Cold outside .")
+//     }
+//       // asking from user if they want to use the program again or exit 
+//       if (!confirm("Do you want to check another temperature ?")) { 
+//         alert("Thanks for using the weather checker ! 👋 ")
+//         break; // exit the program 
+//       }
+
+//   }
+
+// }
+// startprogram();
+
+
+// // Take first number
+// var num1 = parseFloat(prompt("Enter the first number:"));
+
+// // Take operator (+, -, *, /, %)
+// var operator = prompt("Enter an operator (+, -, *, /, %):");
+
+// // Take second number
+// var num2 = parseFloat(prompt("Enter the second number:"));
+
+// // Calculate based on operator
+// if (operator === "+") {
+//     alert("Result: " + (num1 + num2));
+// }
+// else if (operator === "-") {
+//     alert("Result: " + (num1 - num2));
+// }
+// else if (operator === "*") {
+//     alert("Result: " + (num1 * num2));
+// }
+// else if (operator === "/") {
+//     if (num2 !== 0) {
+//         alert("Result: " + (num1 / num2));
+//     } else {
+//         alert("Error: Cannot divide by zero!");
+//     }
+// }
+// else if (operator === "%") {
+//     if (num2 !== 0) {
+//         alert("Result: " + (num1 % num2));
+//     } else {
+//         alert("Error: Cannot find remainder with zero!");
+//     }
+// }
+// else {
+//     alert("Invalid operator entered!");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
