@@ -93,24 +93,75 @@ Question No-8 : Write a program to replace all occurrences of "and" int he strin
 //_______________________________________________________________________________________________________________________________________
 
 /*
-Question No-9 : 
+Question No-9 : Write a program that converts a strings "472" to a number 472. display the values & types in your browser .
 */
 
-
-
-
+// let givendata = "4729";
+//   givendataNumber = +(givendata)
+//   console.log(typeof(givendataNumber))
 
 
 
 //_______________________________________________________________________________________________________________________________________
 
+
 /*
-Question No-10 : 
+Question No-10 : Write a program that takes user input.convert and show thr input in capital letters .
+*/
+
+/*
+let userInput =prompt("Please enter any word , the system will automatically converts the word into a capital letters")
+let updatedCapitalWord = userInput.toUpperCase();
+console.log(updatedCapitalWord);
+
+*/
+
+/*
+Question No-11 : write a program that takes user input . convert and show the input in title case .
+*/
+
+  let userinput = prompt("Please enter a word and to convert it into a title case");
+  let updatetedTitleVersion = userinput.toTitleCase()
+    console.log(updatetedTitleVersion)
+
+
+
+
+
+/*
+Question No-11 : 
 */
 
 
 
 
+
+
+
+
+
+
+
+
+/*
+Question No-11 : 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Question No-11 : 
+*/
 
 
 
